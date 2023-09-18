@@ -7,7 +7,7 @@ const users = [
     {
         username: "Snezhinka",
         email: "snezhinka@gmail.com",
-        thought: [],
+        thought: ["testing"],
     },
 ];
 
@@ -16,10 +16,10 @@ const users = [
 connection.once("open", async () => {
   console.log("connected");
 
-  // THis allows to delete multiple users
+  // This allows to delete multiple users
   await User.deleteMany({});
 
-  // THis helps to insert data into the database
+  // This helps to insert data into the database
   await User.collection.insertMany(users);
 
   console.table(users);

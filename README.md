@@ -21,6 +21,14 @@ This work is intended as an example how a business could utilize a NoSQL databas
 
 There are a few technologies that were utilized as bases for this project: Express.js, Node.js, JavaScript, MongoDB, and Mongoose, MongoDB Compass helped to visualize the data. Additionally, Insomnia application,was used to test the CRUD functionality.
 
+![alt text](./assets/PORT3001running-01.jpg)
+![alt text](./assets/GetAllUsers-01.jpg)
+![alt text](./assets/POSTNewUser-01.jpg)
+![alt text](./assets/NewThought-01.jpg)
+![alt text](./assets/GetTHoughtByID-01.jpg)
+
+
+
 
 ## License
 
